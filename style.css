@@ -86,6 +86,7 @@
   padding: 7px 200px;
   border-radius: 10px;
   border: none;
+  outline: none;
 }
 
 .menuHead {
@@ -149,4 +150,209 @@
 .cardsRoud:hover {
   margin-top: -7px;
   transition: 0.5s;
+
 }
+
+.bestSeller {
+  font-size: xx-large;
+  font-weight: 700;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+
+@media only screen and (max-width: 615px) {
+  .cardsRoud:hover {
+    margin-top: -3px;
+    transition: 0.5s;
+    margin-bottom: 5px;
+  }
+}
+
+.overflow {
+  margin-left: 10px;
+  height: 370px;
+  width: 300px;
+  background-color: #fff;
+border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.mainRebben {
+  display: flex;
+  justify-content: center;
+}
+
+.redRibben {
+
+  height: 25px;
+  width: 17px;
+  background-color: #d1042a;
+}
+
+.left {
+  margin-left: 5px;
+}
+
+.cardhead {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 10px;
+  font-weight: 800;
+}
+
+.price {
+  float: right;
+  height: 29px;
+  width: 80px;
+  background-color: #d1042a;
+  position: relative;
+}
+
+.arrow-right {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 11px solid white;
+  box-shadow: #818181;
+}
+
+.prices {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+.flexs {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 900px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+
+margin-top: 35px;
+margin-bottom: 35px;
+}
+
+@media screen and (max-width: 893px) {
+  .flexs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 700px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+  }
+
+  .reorder {
+    padding: 7px 150px;
+  }
+}
+
+@media screen and (max-width: 694px) {
+  .flexs {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 320px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 35px;
+margin-bottom: 35px;
+  }
+
+  .overflow {
+    margin-left: 10px;
+    height: 320px;
+    width: 250px;
+    background-color: #fff;
+
+    margin-bottom: 20px;
+  }
+
+  .cardImag {
+    height: 210px;
+  }
+
+  .reorder {
+    padding: 7px 150px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .reorder {
+    padding: 7px 100px;
+  }
+
+  .flexs {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 240px;
+    overflow: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 35px;
+margin-bottom: 35px;
+  }
+
+  .overflow {
+    margin-left: 10px;
+    height: 320px;
+    width: 230px;
+    background-color: #fff;
+
+  }
+}
+.dealsCard{
+  margin: 20px;
+  background-color: #fff;
+  height: 300px;
+  width: 300px;
+}.fa-heart{
+  float: right;
+  margin-top: 14px;
+  cursor: pointer;
+}.mainRebbenSec {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.redRibbens{
+  display: flex;
+}.cardimg{
+
+
+}
+.name{
+  
+}
+
+
+
+/* div:after {
+  content: "";
+  position:absolute;
+  margin:-20px;
+  width:40px;
+  height:40px;
+  border-radius: 50%; 
+  box-shadow: 0 0 0 250px #522d5b;
+} */
