@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 </head>
 
 <body id="body">
@@ -24,7 +25,7 @@
   </div>
   <header>
     <div class="header">
-      <span class="openbtn" onclick="openNav()">&#9776;</span>
+      <span class="openbtn" onclick="openNav()">☰</span>
 
       <img src="images\download.png" alt="">
       <button class="imgbutt">
@@ -212,23 +213,109 @@
   <p class="menuHead">
     <span class="under">TOP</span> DEALS
   </p>
-  <div class="dealsCard">
-    <div class="mainRebbenSec">
-      <div class="redRibbens">
-      <div class="redRibben"></div>
-      <div class="redRibben left"></div>
-      <div class="redRibben left"></div></div>
-      <i class="fa-regular fa-heart fa-xl" style="color: #dc1e1e;"></i></div>
-      <div>
+ 
+
+<div id="printSmallScreen">
+
+</div>
+<div id="LargeScreen">
+  <swiper-container class="mySwiper" slides-per-view="2" centered-slides="true" space-between="30" pagination="true"
+    pagination-type="fraction" navigation="true">
+
+
+
+
+    <swiper-slide>
+      <div class="dealsCard item_direction">
+        <div class="mainRebbenSec">
+          <button class="bttnCard">
+            +Add to Bucket
+          </button>
+
+          <div class="redRibbens">
+            <div class="redRibben"></div>
+            <div class="redRibben left"></div>
+            <div class="redRibben left"></div>
+          </div>
+          <i class="fa-regular fa-heart fa-xl" style="color: #dc1e1e;"></i>
+        </div>
+        <div>
           <center>
-      <img  height="170px" src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-twister-combo-2023-05-31115706.png" class="cardimg" alt="...">
+            <img height="170px" src="images\43a95f10-ffaa-11ed-b673-4121381f04c6-CrispyDuoBox-2023-05-31115706.png"
+              class="cardimg" alt="...">
           </center>
-        <h5 class="name">Twister Combo</h5>
-    </div></div>
+          <h5 class="name">Crispy Duo Box</h5>
+          <p class="name">Twister + 1 Regular fries + 1 Regular <br> drink</p>
+          <p class="priceDeal">Rs 640</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="dealsCard item_direction">
+        <div class="mainRebbenSec">
+          <button class="bttnCard">
+            +Add to Bucket
+          </button>
+          <div class="redRibbens">
+            <div class="redRibben"></div>
+            <div class="redRibben left"></div>
+            <div class="redRibben left"></div>
+          </div>
+          <i class="fa-regular fa-heart fa-xl" style="color: #dc1e1e;"></i>
+        </div>
+        <div>
+          <center>
+            <img height="170px" src="images\43a98620-ffaa-11ed-b6b3-6970cc1cd666-zingerstack-Combo-2023-05-31115706.png"
+              class="cardimg" alt="...">
+          </center>
+          <h5 class="name">Zinger Stacker Combo</h5>
+          <p class="name">1 Zinger Stacker + 1 Regular fries + 1 Regular <br> drink</p>
+          <p class="priceDeal">Rs 810</p>
+        </div>
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="dealsCard item_direction">
+        <div class="mainRebbenSec">
+          <button class="bttnCard">
+            +Add to Bucket
+          </button>
+          <div class="redRibbens">
+            <div class="redRibben"></div>
+            <div class="redRibben left"></div>
+            <div class="redRibben left"></div>
+          </div>
+          <i class="fa-regular fa-heart fa-xl" style="color: #dc1e1e;"></i>
+        </div>
+        <div>
+          <center>
+            <img height="170px" src="images\43a9fb50-ffaa-11ed-8180-812e571998fe-twister-combo-2023-05-31115706.png"
+              class="cardimg" alt="...">
+          </center>
+          <h5 class="name">Twister Combo</h5>
+          <p class="name">Twister + 1 Regular fries + 1 Regular <br> drink</p>
+          <p class="priceDeal">Rs 640</p>
+        </div>
+      </div>
+    </swiper-slide>
+  </swiper-container>
+</div>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+
+
+
+
+
+
+
+  <script src="app.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
-  <script src="app.js"></script>
 </body>
 
 </html>
