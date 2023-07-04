@@ -327,8 +327,8 @@
   margin-right: 30px;
   margin-bottom: 30px;
   background-color: #fff;
-  height: 440px;
-  min-width: 350px;
+  height: 454px;
+  width: 310px;
   border-radius: 10px;
   position: relative;
 }
@@ -359,7 +359,7 @@
 
 .bttnCard {
   position: absolute;
-  margin-top: 427px;
+  margin-top: 437px;
   border-radius: 10px;
   background-color: red;
   width: 180px;
@@ -376,8 +376,16 @@
 }
 
 .cardimg {
-
   height: 280px;
+}
+
+.cardimg:hover {
+  transform: scale(1.2) rotate(5deg);
+  transition: all 0.3s ease-in-out;
+}.nameShort{
+  font-size: 21.5px;
+  font-weight: 500;
+  margin-left: 5px;
 }
 
 
@@ -389,14 +397,8 @@
 
 
 
-
-
-
-
-
-
 .slide-container {
-  max-width: 1120px;
+  /* max-width: 1320px; */
   width: 100%;
   padding: 40px 0;
 }
@@ -465,7 +467,7 @@
 
 .swiper-button-next {
   color: red !important;
-  right: 0;
+  right: 0 !important;
 }
 
 .swiper-button-prev {
@@ -552,4 +554,60 @@
 
 .carousel-control-prev-icon {
   position: relative !important;
+}
+
+.cardLast {
+  margin-top: 120px;
+}
+
+.lastCard {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.firstCardTitle {
+
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+
+.img-height {
+  height: 360px !important;
+  margin-top: 30px;
+}
+
+.card-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 300px !important;
+  /* height: 100px !important; */
+}
+
+.FourtCard {
+  margin-top: 30px;
+}
+
+.explore {
+  font-size: x-large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.fourthImagCardButt {
+  background-color: #d1042a;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 7px 27px;
+  border: 2px red solid;
+  border-radius: 6px;
+  font-size: large;
 }

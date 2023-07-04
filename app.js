@@ -16,7 +16,7 @@ let closeNav = () => {
   
 var swiper = new Swiper(".slide-content", {
   slidesPerView: 3,
-  spaceBetween: 25,
+  spaceBetween: 20,
   loop: true,
   centerSlide: 'true',
   fade: 'true',
@@ -35,11 +35,20 @@ var swiper = new Swiper(".slide-content", {
       0: {
           slidesPerView: 1,
       },
-      520: {
+      480: {
+        slidesPerView: 2,
+    },
+      750: {
           slidesPerView: 2,
       },
+      // 628:{
+      //   slidesPerView: 3,
+      // },
+      740:{
+        slidesPerView: 2,
+      },
       950: {
-          slidesPerView: 3,
+          slidesPerView:3,
       },
   },
 });
