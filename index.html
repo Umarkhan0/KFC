@@ -26,6 +26,7 @@
     <p>Contact</p>
   </div>
   <header>
+  
     <div class="header">
       <span class="openbtn" onclick="openNav()">☰</span>
 
@@ -36,11 +37,13 @@
       <button class="collect">
         <img height="20px" src="images\pickup.47bb874f83ea6acb5a47.png" alt="">PICUP
       </button>
-      <BUtton class="loginBtn">
+      <BUtton class="loginBtn" id="logInBtnHead">
         Login
       </BUtton>
     </div>
   </header>
+  <div id="printLogin"></div>
+  <main id="mainCon">
   <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -413,8 +416,8 @@
 
   <div class="firstCardTitle">
 
-    <img src="images\pickup-banner.3e5d171ae16d0a6f2fcc (1).png" class="img-height" alt="...">
-    <img src="images\favorites-banner.33609236e6133c8fd2ed.png" class="img-height" alt="...">
+    <img src="images\pickup-banner.3e5d171ae16d0a6f2fcc (1).png" class="img-height img-fluid" alt="...">
+    <img src="images\favorites-banner.33609236e6133c8fd2ed.png" class="img-height img-fluid" alt="...">
     <img src="images\scamOrdr.6f809bf83912dd8dbe31.jpg" class="img-fluid img-height" alt="...">
 
 
@@ -431,7 +434,68 @@
 
 
   </div>
-  <h1>hello world</h1>
+  <div class="footer">
+    <div class="center">
+      <img src="images/download.png" alt="KFC">
+      <i class="fa-brands fooIcon fa-youtube" style="color: #e91c3a;"></i>
+      <i class="fa-brands margin fa-instagram"></i>
+      <i class="fa-brands margin fa-facebook-f" style="color: #3067c7;"></i>
+    </div>
+    <div class="fooTr">
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">About Us</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Mitao Bhook</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Mitao Bhook - Scholarship</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Privacy Policy</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Careers</a>
+        </li>
+
+      </ul>
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">Contact Us</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Store Locator</a>
+        </li>
+        <li>
+          <a class="linkFoo" href="#">Track Order</a>
+        </li>
+      </ul>
+      <ul class="decoration">
+        <li>
+          <a class="linkFoo" href="#">Terms & Conditions</a>
+        </li>
+      </ul>
+      <ul class="decoration">
+        <li>
+          <img class="fooImgBtn" src="images/download (1).png" alt="Button img">
+        </li>
+        <br>
+        <li>
+          <img class="fooImgBtn" src="images/download (2).png" alt="Button img">
+        </li>
+      </ul>
+    </div>
+<div class="myIntro d-flex justify-content-evenly">
+  <p id="year"class="year">
+<p>Powoerd by: <span class="fw-bold">UMAR KHAN</span></p>
+  </p>
+</div>
+  </div>
+    
+  </div>
+
+</main>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script src="app.js"></script>
 

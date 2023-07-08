@@ -52,3 +52,41 @@ var swiper = new Swiper(".slide-content", {
       },
   },
 });
+
+let year = document.getElementById("year");
+let getYear = new Date().getFullYear();
+year.innerHTML = `
+${getYear} KFC. All rights reserved
+`
+let prinCardAndRemove = document.getElementById("mainCon");
+
+let logInBtnHead = document.getElementById("logInBtnHead");
+let printLog = document.getElementById("printLogin")
+logInBtnHead.addEventListener("click",()=>{
+  prinCardAndRemove.remove()
+  printLog.innerHTML = `
+   <div class="logCard">
+  <div>
+<i id="arroeBack" class="fa-solid arrowLeft fa-arrow-left fa-sm" style="color: #df3434;"></i>
+  
+<img class="logImage img-fluid" src="images/login-animation.857cb4f842a7a27eed63.gif" alt="">
+</div>
+<div class="logInput">
+  <div>
+  <p class="wellCome">Wellcome</p>
+  <input class="logInp" type="email" placeholder="Enter Email"><br>
+  <input class="logInp" type="password" placeholder="Enter Password"><br>
+  <center>
+    <button class="loginBtn mt-bott">Login</button>
+  </center>
+  </div>
+</div>
+  `
+  let arrowBack = document.getElementById("arroeBack")
+ arrowBack.addEventListener("click",()=>{
+  alert()
+
+ })
+})
+
+console.log(logInBtnHead)

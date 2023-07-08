@@ -9,6 +9,7 @@
   justify-content: space-around;
   flex-wrap: wrap;
   align-items: center;
+
 }
 
 .sidenav {
@@ -382,18 +383,13 @@
 .cardimg:hover {
   transform: scale(1.2) rotate(5deg);
   transition: all 0.3s ease-in-out;
-}.nameShort{
+}
+
+.nameShort {
   font-size: 21.5px;
   font-weight: 500;
   margin-left: 5px;
 }
-
-
-
-
-
-
-
 
 
 
@@ -611,3 +607,112 @@
   border-radius: 6px;
   font-size: large;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+  margin-top: 47px;
+}
+
+.fooIcon {
+  background-color: white;
+  padding: 8px;
+  height: 32px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+.margin {
+  background-color: white;
+  padding: 8px;
+  height: 32px;
+  border-radius: 50px;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.fooTr {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+li ,.mt-bott{
+  margin-bottom: 10px !important;
+}
+.decoration {
+  list-style: none;
+  
+}
+
+.linkFoo {
+  text-decoration: none;
+  color: black;
+  font-size: large;
+  
+}
+
+.linkFoo:hover {
+  color: red;
+}
+.fooImgBtn{
+  cursor: pointer;
+ 
+}.logImage{
+  background-color: white;
+  box-shadow: 0 3px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 10px 0px 0px 10px;
+}
+
+  #printLogin{
+    margin-top: 40px;
+   
+
+  }
+.logCard{
+ 
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* margin-top: 30px; */
+  margin: 0 auto;
+  margin-bottom: 30px;
+}.logInput{
+  border-radius: 0px 10px 10px 0px;
+  box-shadow: 0 3px 0px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  width: 355px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}.wellCome{
+  /* margin-bottom: 50px; */
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: large;
+}.logInp{
+  
+ margin: 0px 0px 24px 0px;
+ border: 1.5px red solid;
+ border-radius: 40px;
+ padding: 5px;
+ outline: #d1042a;
+}
+@media screen and (max-width: 706px) {
+  .logImage{
+   
+    border-radius: 10px 10px 0px 0px;
+  }
+  .logInput{
+    border-radius: 0px 0px 10px 10px;}
+    
+  }
+  .arrowLeft{
+    padding: 10px;
+    margin: 20px 20px;
+    border-radius: 70px;
+    border: 2px red solid;
+    position: absolute;
+  }
